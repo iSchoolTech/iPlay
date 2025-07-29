@@ -1,0 +1,243 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+body {
+    background-color: #ECF8FF;
+}
+
+
+.navbar {
+    background-color: #056FEC;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: white;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFBB1C;
+}
+
+
+.hero-section {
+    background-color: #056FEC;
+    color: white;
+    padding: 350px 0;
+    text-align: center;
+}
+
+.hero-content {
+    position: relative;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.btn-cta {
+    background-color: #FFBB1C;
+    border: none;
+    padding: 15px 40px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #043FAD;
+    border-radius: 50px;
+}
+
+.btn-cta:hover {
+    background-color: #e0a800; /* darker gold */
+    color: white;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #056FEC;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+
+#top-games {
+    padding: 150px 150px;
+    background-color: #f0f4ff;
+}
+
+.game-card {
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+    height: 100%;
+    background-color: white;
+}
+
+.game-card img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.game-card .card-body {
+    padding: 24px;
+}
+
+.game-title {
+    font-weight: 600;
+    color: #056FEC;
+    margin-bottom: 8px;
+}
+
+.game-genre {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.custom-btn {
+  background-color: #FFBB1C;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.custom-btn:hover {
+  background-color: #e6a800;
+}
+
+.game-price {
+    font-size: 20px;
+    font-weight: 700;
+    color:#FF7F1C;
+}
+
+
+.games-section {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #043FAD;
+}
+
+.card-text {
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #043FAD;
+  border: none;
+  padding: 8px 16px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.btn-primary:hover {
+  background-color: #032e87;
+}
+
+
+.about-section {
+    padding: 80px 0;
+    background-color: #CAE2F0;
+}
+
+.about-content {
+    background-color: white;
+    padding: 48px;
+    border-radius: 20px;
+}
+
+
+.contact-section {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.contact-form {
+    background-color: #ECF8FF;
+    padding: 48px;
+    border-radius: 20px;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 2px solid #CAE2F0;
+    padding: 12px 15px;
+}
+
+.btn-primary {
+    background-color: #056FEC;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #043FAD;
+}
+
+
+footer {
+  background-color: #2e68ec;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+footer p {
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+}
+
+
+.details-container {
+    padding-top: 130px;
+}
