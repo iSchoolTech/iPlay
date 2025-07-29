@@ -4,12 +4,12 @@
 
 
 body {
-    background-color: #ECF8FF;
+    background-color: #F5F6FA;
 }
 
 
 .navbar {
-    background-color: #056FEC;
+    background-color: #1D1E33;
 }
 
 .navbar-brand {
@@ -25,51 +25,53 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #FFBB1C;
+    color: #FFD460;
 }
-
 
 .hero-section {
-    background-color: #056FEC;
+    background-color: #1D1E33;
     color: white;
-    padding: 350px 0;
-    text-align: center;
-}
-
-.hero-content {
-    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .hero-title {
-    font-size: 64px;
-    font-weight: 700;
-    margin-bottom: 24px;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .hero-subtitle {
-    font-size: 20px;
-    margin-bottom: 32px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #FFD460;
 }
 
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
 .btn-cta {
-    background-color: #FFBB1C;
+    background-color: #FFD460;
     border: none;
     padding: 15px 40px;
     font-size: 19px;
     font-weight: 600;
-    color: #043FAD;
+    color: #1D1E33;
     border-radius: 50px;
 }
 
 .btn-cta:hover {
-    background-color: #e0a800; /* darker gold */
+    background-color: #e0b840; /* darker gold */
     color: white;
 }
 
 .section-title {
     font-size: 40px;
     font-weight: 700;
-    color: #056FEC;
+    color: #4F46E5;
     margin-bottom: 48px;
     text-align: center;
 }
@@ -77,7 +79,7 @@ body {
 
 #top-games {
     padding: 150px 150px;
-    background-color: #f0f4ff;
+    background-color: #F5F6FA;
 }
 
 .game-card {
@@ -99,7 +101,7 @@ body {
 
 .game-title {
     font-weight: 600;
-    color: #056FEC;
+    color: #4F46E5;
     margin-bottom: 8px;
 }
 
@@ -109,8 +111,8 @@ body {
     margin-bottom: 16px;
 }
 .custom-btn {
-  background-color: #FFBB1C;
-  color: #000;
+  background-color: #FFD460;
+  color: #1D1E33;
   font-weight: bold;
   border: none;
   padding: 10px 20px;
@@ -120,13 +122,13 @@ body {
 }
 
 .custom-btn:hover {
-  background-color: #e6a800;
+  background-color: #1D1E33;
 }
 
 .game-price {
     font-size: 20px;
     font-weight: 700;
-    color:#FF7F1C;
+    color:#FF3C38;
 }
 
 
@@ -152,7 +154,7 @@ body {
 .card-title {
   font-size: 20px;
   font-weight: bold;
-  color: #043FAD;
+  color: #4F46E5;
 }
 
 .card-text {
@@ -160,7 +162,7 @@ body {
 }
 
 .btn-primary {
-  background-color: #043FAD;
+  background-color: #4F46E5;
   border: none;
   padding: 8px 16px;
   font-weight: 500;
@@ -168,13 +170,13 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #032e87;
+  background-color: #3c36c4;
 }
 
 
 .about-section {
     padding: 80px 0;
-    background-color: #CAE2F0;
+    background-color: #E4E6F1;
 }
 
 .about-content {
@@ -190,7 +192,7 @@ body {
 }
 
 .contact-form {
-    background-color: #ECF8FF;
+    background-color: #F5F6FA;
     padding: 48px;
     border-radius: 20px;
 }
@@ -202,7 +204,7 @@ body {
 }
 
 .btn-primary {
-    background-color: #056FEC;
+    background-color: #4F46E5;
     border: none;
     padding: 12px 30px;
     border-radius: 50px;
@@ -211,13 +213,13 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #043FAD;
+    background-color: #3c36c4;
 }
 
 
 footer {
-  background-color: #2e68ec;
-  color: #ffffff;
+  background-color: #1D1E33;
+  color: #F0F0F0;
   text-align: center;
   padding: 20px;
   position: relative;
