@@ -201,6 +201,9 @@ body {
   color: #F0F0F0;
   padding: 40px 20px 20px;
   font-family: 'Arial', sans-serif;
+  position: relative;
+  bottom: unset;
+  width: 100%;
 }
 
 .footer-container {
