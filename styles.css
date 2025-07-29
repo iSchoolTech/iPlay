@@ -101,6 +101,10 @@ body {
   text-decoration: none;
 }
 
+.custom-btn:hover {
+  background-color: #333;
+  color: #ffffff;
+}
 
 .container h2 {
     padding-bottom: 20px
@@ -292,6 +296,10 @@ footer p {
   padding: 6px 12px;
 }
 
+.remove-btn:hover {
+  background-color: #5b1919;
+}
+
 .total-container {
   text-align: right;
   margin-top: 30px;
@@ -312,4 +320,9 @@ footer p {
   border: none;
   border-radius: 8px;
   margin-top: 15px;
+}
+
+.checkout-btn:hover {
+  background-color: green;
+  color: white;
 }
