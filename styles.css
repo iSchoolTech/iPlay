@@ -8,6 +8,7 @@ body {
 }
 
 
+
 .navbar {
     background-color: #1D1E33;
 }
@@ -37,19 +38,20 @@ body {
 }
 
 .hero-title {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     font-weight: bold;
 }
 
 .hero-subtitle {
     font-size: 1.2rem;
     margin-top: 1rem;
-    color: #FFD460;
+    color: #e7e7e7;
 }
 
 .hero-image {
     max-width: 100%;
     height: auto;
+    border-radius: 9%;
 }
 
 
@@ -79,7 +81,7 @@ body {
 
 #top-games {
     padding: 150px 150px;
-    background-color: #F5F6FA;
+    background-color: #111827;
 }
 
 .game-card {
@@ -101,18 +103,13 @@ body {
 
 .game-title {
     font-weight: 600;
-    color: #4F46E5;
+    color: black;
     margin-bottom: 8px;
 }
 
-.game-genre {
-    color: #666;
-    font-size: 14px;
-    margin-bottom: 16px;
-}
 .custom-btn {
-  background-color: #FFD460;
-  color: #1D1E33;
+  background-color: black;
+  color: white;
   font-weight: bold;
   border: none;
   padding: 10px 20px;
@@ -121,14 +118,15 @@ body {
   text-decoration: none;
 }
 
-.custom-btn:hover {
-  background-color: #1D1E33;
+
+.container h2 {
+    padding-bottom: 20px
 }
 
 .game-price {
     font-size: 20px;
     font-weight: 700;
-    color:#FF3C38;
+    color: #06a242;
 }
 
 
@@ -154,7 +152,7 @@ body {
 .card-title {
   font-size: 20px;
   font-weight: bold;
-  color: #4F46E5;
+  color: black;
 }
 
 .card-text {
@@ -242,4 +240,99 @@ footer p {
 
 .details-container {
     padding-top: 130px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev {
+  left: -100px;
+}
+
+.carousel-control-next {
+  right: -100px;
+}
+
+.cart-page {
+  min-height: 100vh;
+  background-color: #0f172a; /* Dark navy for full screen */
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart-container {
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cart-heading {
+  color:white;
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+
+.cart-item {
+  background-color: #1e1b38;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  border: 1px solid #2a2a72;
+}
+
+.cart-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-price {
+  color: #06a242;
+  font-weight: bold;
+}
+
+.remove-btn {
+  background-color: #ff4f81;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.total-container {
+  text-align: right;
+  margin-top: 30px;
+  color: white;
+}
+
+.total-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #06a242;
+}
+
+.checkout-btn {
+  background-color: #ffd600;
+  color: #111;
+  padding: 10px 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
 }
