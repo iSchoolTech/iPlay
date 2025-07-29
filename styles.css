@@ -326,3 +326,57 @@ footer p {
   background-color: green;
   color: white;
 }
+
+
+.auth-box {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 100px auto 40px;
+}
+
+/* Main title */
+.auth-box h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1D1E33;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Form fields */
+.auth-box .form-control {
+  border-radius: 8px;
+  border: 2px solid #4F46E5;
+  padding: 0.75rem;
+}
+
+/* Submit button */
+.auth-box .btn-primary {
+  background-color: #FFD460;
+  border: none;
+  color: #1D1E33;
+  font-weight: bold;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.auth-box .btn-primary:hover {
+  background-color: #e6be4f;
+}
+
+/* Switch link */
+.auth-box .switch-link {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #1D1E33;
+}
+
+.auth-box .switch-link a {
+  color: #4F46E5;
+  font-weight: bold;
+  text-decoration: none;
+}
