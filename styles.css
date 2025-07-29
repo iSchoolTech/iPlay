@@ -80,7 +80,7 @@ body {
 
 
 #top-games {
-    padding: 150px 150px;
+    padding: 150px 0;
     background-color: #111827;
 }
 
@@ -285,7 +285,7 @@ footer p {
 }
 
 .remove-btn {
-  background-color: #ff4f81;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 6px;
